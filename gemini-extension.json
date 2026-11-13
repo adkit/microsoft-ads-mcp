@@ -1,0 +1,11 @@
+{
+  "name": "adkit-microsoft-ads",
+  "version": "1.0.0",
+  "description": "Microsoft Ads MCP server by AdKit: Microsoft Advertising (Bing Ads) reports and campaign changes through its API, in beta. Every change is saved as a draft until you approve it.",
+  "mcpServers": {
+    "adkit-microsoft-ads": {
+      "httpUrl": "https://mcp.adkit.so/api/mcp/microsoft-ads",
+      "description": "Hosted AdKit Microsoft Ads MCP server. Signs in with OAuth in the browser on first use; nothing to install."
+    }
+  }
+}

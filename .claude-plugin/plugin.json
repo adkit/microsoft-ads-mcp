@@ -1,0 +1,22 @@
+{
+  "name": "microsoft-ads",
+  "description": "Microsoft Ads MCP server by AdKit: Microsoft Advertising (Bing Ads) reports and campaign changes through its API, in beta. Every change is saved as a draft until you approve it.",
+  "author": {
+    "name": "AdKit",
+    "email": "contact@adkit.so"
+  },
+  "homepage": "https://adkit.so/features/ads-mcp/microsoft",
+  "repository": "https://github.com/adkit/microsoft-ads-mcp",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "microsoft ads mcp",
+    "microsoft ads",
+    "mcp",
+    "model context protocol",
+    "ads mcp",
+    "advertising",
+    "ad campaigns"
+  ],
+  "mcpServers": "./.mcp.json"
+}
