@@ -3,7 +3,7 @@
   "mcpServers": {
     "adkit-microsoft-ads": {
       "type": "streamable-http",
-      "url": "https://mcp.adkit.so/api/mcp/microsoft-ads"
+      "url": "https://mcp.adkit.so/microsoft-ads"
     }
   }
 }

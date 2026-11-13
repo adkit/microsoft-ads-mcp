@@ -1,10 +1,10 @@
 # Microsoft Ads MCP Server
 
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.adkit%2Fmicrosoft-ads-7c3aed)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adkit/microsoft-ads) [![Setup guide](https://img.shields.io/badge/setup_guide-adkit.so-7c3aed)](https://adkit.so/features/ads-mcp/microsoft) [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](./LICENSE)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.adkit%2Fmicrosoft--ads-7c3aed)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.adkit/microsoft-ads) [![Setup guide](https://img.shields.io/badge/setup_guide-adkit.so-7c3aed)](https://adkit.so/features/ads-mcp/microsoft) [![License: MIT](https://img.shields.io/badge/license-MIT-16a34a)](./LICENSE)
 
 Connect Microsoft Ads (Bing Ads) to Claude, ChatGPT, Cursor, Codex or any AI app that supports MCP. AdKit hosts the server, so you only add an address to your AI app.
 
-- **MCP address:** `https://mcp.adkit.so/api/mcp/microsoft-ads`
+- **MCP address:** `https://mcp.adkit.so/microsoft-ads`
 - **Website:** [Microsoft Ads MCP by AdKit](https://adkit.so/features/ads-mcp/microsoft)
 
 > **Beta:** Your AI writes Microsoft Advertising API requests and AdKit sends them. It can do what the API allows, with more steps than on Meta or Google. Turn on Advanced Platform Access in your AdKit project (Agent Permissions) first.
@@ -36,12 +36,12 @@ There are two ways to connect:
 ### Claude (web and desktop)
 
 - **All platforms:** [install AdKit from the Claude directory](https://claude.ai/directory/adkit), in one click.
-- **Microsoft Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/api/mcp/microsoft-ads`.
+- **Microsoft Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/microsoft-ads`.
 
 ### ChatGPT
 
 - **All platforms:** [add the AdKit app](https://chatgpt.com/apps/adkit/asdk_app_6a1e848decdc8191a4974b315c51661f), in one click.
-- **Microsoft Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/api/mcp/microsoft-ads`.
+- **Microsoft Ads only:** Settings → **Connectors** → **Add custom connector** → paste `https://mcp.adkit.so/microsoft-ads`.
 
 ### Claude Code
 
@@ -55,7 +55,7 @@ As a plugin:
 Or as an MCP server only:
 
 ```
-claude mcp add --transport http adkit-microsoft-ads https://mcp.adkit.so/api/mcp/microsoft-ads
+claude mcp add --transport http adkit-microsoft-ads https://mcp.adkit.so/microsoft-ads
 ```
 
 ### Gemini CLI
@@ -72,7 +72,7 @@ Add to `~/.cursor/mcp.json`:
 {
   "mcpServers": {
     "adkit-microsoft-ads": {
-      "url": "https://mcp.adkit.so/api/mcp/microsoft-ads"
+      "url": "https://mcp.adkit.so/microsoft-ads"
     }
   }
 }
@@ -84,7 +84,7 @@ Add to `~/.codex/config.toml`:
 
 ```toml
 [mcp_servers.adkit-microsoft-ads]
-url = "https://mcp.adkit.so/api/mcp/microsoft-ads"
+url = "https://mcp.adkit.so/microsoft-ads"
 ```
 
 In Claude Code, Gemini CLI, Cursor and Codex, use `https://mcp.adkit.so` instead to connect all platforms.

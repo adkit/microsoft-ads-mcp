@@ -3,7 +3,7 @@
   "name": "io.github.adkit/microsoft-ads",
   "title": "Microsoft Ads MCP Server by AdKit",
   "description": "Microsoft Ads (Bing Ads) MCP server: read reports and draft campaign changes from AI.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://adkit.so/features/ads-mcp/microsoft",
   "repository": {
     "url": "https://github.com/adkit/microsoft-ads-mcp",
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.adkit.so/api/mcp/microsoft-ads"
+      "url": "https://mcp.adkit.so/microsoft-ads"
     }
   ]
 }
